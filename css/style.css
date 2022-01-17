@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-shadow: 2px 2px 6px gray;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+.center-css {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 20px;
+}
+.center-css #clock {
+  font-size: 110px;
+}
+.center-css #greeting {
+  font-size: 40px;
+}
+.center-css #todo-list {
+  list-style: none;
+  font-size: 15px;
+  margin: 2px;
+}
+.center-css #todo-list li {
+  margin: 7px;
+}
+.center-css #todo-list button {
+  background-color: transparent;
+  border: 0px;
+}
+.center-css #quote {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 7px;
+}
+
+#weather {
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+.center-css #login-form input[id="name"],
+.center-css #todo-form [id="todo"] {
+  width: 260px;
+  height: 30px;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.center-css #login-form input[id="submit"] {
+  color: black;
+  background-color: white;
+  font-size: 13px;
+  width: 100px;
+  height: 30px;
+  border: 3px solid transparent;
+  border-radius: 5px;
+}
+.center-css #login-form input::placeholder {
+  color: black;
+  font-size: 16px;
+}
+.center-css #todo-form input::placeholder {
+  color: black;
+  font-size: 16px;
+}
